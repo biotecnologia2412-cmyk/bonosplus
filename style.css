@@ -68,3 +68,8 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+/* Ajuste dinámico para niveles avanzados */
+.grid.expert {
+    grid-template-columns: repeat(6, 1fr); /* Tablero más ancho para nivel difícil */
+    max-width: 800px;
+}
