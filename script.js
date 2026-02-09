@@ -69,3 +69,7 @@ function resetStats() {
 
 // Iniciar nivel 1 al cargar
 initLevel(1);
+// Esto obliga al juego a dibujar el tablero apenas cargue la página
+window.onload = () => {
+    initLevel(1); 
+};
